@@ -20,17 +20,15 @@ div {
     border-color: white;
     border-width: 3px;
     position: absolute;
-    transform: translate(-50%, -50%);
-    top: 60%;
-    left: 50%;
+    top: 45%;
+    left: 30%;
     width: 43vw;
     height: 33vh; 
-    content: "";
     text-align:center;
     transition: transform .3s ease;
 }
 div:hover {
-    transform: translate(-50%, -50%) scale(1.05)
+    transform: scale(1.05)
 }
 p {
     color:white;
