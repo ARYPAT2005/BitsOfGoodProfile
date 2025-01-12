@@ -29,9 +29,9 @@ div {
     text-align:center;
     transition: transform .3s ease;
 }
-div:hover {
+/* div:hover {
     transform: translate(-50%, -50%) scale(1.05)
-}
+} */
 p {
     color:white;
     text-align:center;
