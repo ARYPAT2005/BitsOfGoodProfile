@@ -16,9 +16,6 @@ img:hover {
     transform: translate(-50%, -50%) scale(1.05)
 }
 div {
-    border-style: dotted;
-    border-color: white;
-    border-width: 3px;
     position: absolute;
     top: 45%;
     left: 30%;
@@ -27,7 +24,7 @@ div {
     text-align:center;
     transition: transform .3s ease;
 }
-div:hover {
+p:hover {
     transform: scale(1.05)
 }
 p {
