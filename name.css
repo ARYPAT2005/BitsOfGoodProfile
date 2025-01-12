@@ -24,9 +24,6 @@ div {
     text-align:center;
     transition: transform .3s ease;
 }
-p:hover {
-    transform: scale(1.05)
-}
 p {
     color:white;
     text-align:center;
@@ -34,4 +31,9 @@ p {
     padding-left:10px;
     padding-right:10px;
     padding-top:20px;
+    transition: transform .3s ease
+}
+p:hover {
+    transform: scale(1.05);
+    z-index: 10;
 }
