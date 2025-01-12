@@ -1,0 +1,42 @@
+body {
+   height: 100vh;
+    background-color: grey; 
+    background-image: linear-gradient(grey, black);
+}
+img {
+    width:auto; 
+    height:200px;
+    border-radius:50%; 
+    position: relative; 
+    left: 50%; top: 25%;
+    transform: translate(-50%, -50%);
+    transition: transform .3s ease
+}
+img:hover {
+    transform: translate(-50%, -50%) scale(1.05)
+}
+div {
+    border-style: dotted;
+    border-color: white;
+    border-width: 3px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    width: 43vw;
+    height: 33vh; 
+    content: "";
+    text-align:center;
+    transition: transform .3s ease;
+}
+div:hover {
+    transform: translate(-50%, -50%) scale(1.05)
+}
+p {
+    color:white;
+    text-align:center;
+    font-size: 1.3em;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:20px;
+}
